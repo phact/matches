@@ -1,0 +1,29 @@
+<html>
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="matches.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="matches.css">
+</head>
+<body>
+<h1 id="activePlayer">Ready Player 1<h1>
+<h2 class="btnClass" id="refreshBtn" onclick="reDraw();">Reset</h2>
+<h2 class="btnClass" id="playBtn" onclick="makeMove();">Play</h2>
+<!--
+<svg>
+<linearGradient id="matchLinearGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop id="stop3047" offset="0" style="stop-color:#ef2700;stop-opacity:0.47747749;"></stop>
+<stop id="stop3069" offset="0.222" style="stop-color:#f35205;stop-opacity:0.13513513;"></stop>
+<stop id="stop3077" offset="0.222" style="stop-color:#f3da8a;stop-opacity:0.81981981;"></stop>
+<stop id="stop3073" offset="1" style="stop-color:#e9b22f;stop-opacity:0.52252251;"></stop>
+</linearGradient>
+</svg>
+-->
+<div id="gameArea"></div>
+<h2 class="btnClass" onclick="location.reload();">Start Over</h2>
+</body>
+<script>
+start();
+</script>
+</html>
